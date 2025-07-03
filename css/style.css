@@ -13,7 +13,7 @@ body{
     justify-content: center;
     align-items: center;
     
-    background-image: url(assets/wbc.jpg);
+    background-image: url("../assets/images/wbc.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ main{
     width: 868px;
     margin: 16px;
     height: 259px;
-    background-image: url(assets/logo.png);
+    background-image: url("../assets/logo.png");
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
