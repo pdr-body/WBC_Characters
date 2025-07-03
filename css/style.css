@@ -20,10 +20,11 @@ body{
 }
 
 main{
-    background-color: #0000003b;
+    box-shadow: 0px 0px 41px #0793a9;
+    background-color: #3da1a5b8;
     height: 550px;
     width: 900px;
-    border-radius: 16px;
+    border-radius: 260px;
 }
 
 .top{
@@ -97,17 +98,18 @@ h3{
     display: none;
     justify-content: center;
     align-items: center;
-
+    
     .modalContent{
         width: 600px;
         height: 400px;
-        background-color: #154569;
+        background-color: #267d76;
         padding: 16px;
         display: flex;
         gap: 16px;
         justify-content: space-between;
         border-radius: 16px;
         position: relative;
+        box-shadow: 0px 0px 32px white;
     }
 
     .modalFoto{
@@ -125,6 +127,7 @@ h3{
         h1{
             font-family: "Oswald";
             font-family: "Iceberg", sans-serif;
+            color: #b19318;
         }
     }
 
@@ -142,10 +145,17 @@ h3{
         font-size: 32px;
         border-radius: 50%;
         transition: .5s;
+        translate: 24px -22px;
     }
 }
 
 .close:hover{
     cursor: pointer;
     transform: scale(1.2);
+}
+
+.modal p{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
 }
