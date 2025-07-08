@@ -31,3 +31,18 @@ function mostraModal(param) {
 function fechaModal(){
     Modal.style.display = 'none'; // Função que faz o modal desaparecer quando clicado no X ;
 }
+
+const som = new Audio('assets/sound/click.mp3'); // Constante que busca o som de clique;
+som.preload = 'auto'; // Pré-carrega o som para não ter atraso ao clicar;
+
+// Função que toca o som quando o mouse passa por cima da imagem;
+function tocarSom(){ 
+    som.play();
+}
+
+document.addEventListener('DOMcontentLoaded', () => {
+    const imagens = document.querySelectorAll('.imagem'); // Seleciona todas as imagens com a classe "imagem";
+    imagens.forEach(imagem => {
+        imagem.addEventListener('mouseover', tocarSom); // Adiciona o evento de mouseover para tocar o som quando o mouse passa por cima da imagem;
+    })
+})
