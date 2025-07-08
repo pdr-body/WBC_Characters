@@ -32,7 +32,7 @@ function fechaModal(){
     Modal.style.display = 'none'; // Função que faz o modal desaparecer quando clicado no X ;
 }
 
-const som = new Audio('assets/sound/click.mp3'); // Constante que busca o som de clique;
+const som = new Audio('assets/click.mp3'); // Constante que busca o som de clique;
 som.preload = 'auto'; // Pré-carrega o som para não ter atraso ao clicar;
 
 // Função que toca o som quando o mouse passa por cima da imagem;
