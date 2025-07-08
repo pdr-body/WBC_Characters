@@ -6,16 +6,18 @@
 }
 
 body{
+    background-image: url(../assets/wbc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     position: relative;
     width: 100%;
     height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/wbc.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
 }
 
 main{
@@ -27,12 +29,13 @@ main{
 }
 
 .top{
-    width: 868px;
-    margin: 16px;
-    height: 259px;
     background-image: url(../assets/logo.png);
     background-repeat: no-repeat;
     background-position: center;
+    
+    width: 868px;
+    margin: 16px;
+    height: 259px;
     display: flex;
 }
 
